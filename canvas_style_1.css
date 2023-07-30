@@ -1,0 +1,227 @@
+/* ==UserStyle==
+@name           3/29/2023, 9:49:33 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Michael Iwanek
+==/UserStyle== */
+@-moz-document domain("canvas.oregonstate.edu") {
+
+    /* 
+a { color: #9BAED2 !important; }
+a:hover { color: #B3C4E6 !important; }
+a:visited { color: #B8A7C3 !important; }
+a:visited:hover { color: #D2C0DE !important; }
+ */
+    body {
+        background-color: #34343b;
+        color: #cfd0ca;
+        /*         background-color: #979077;
+        color: #1c1c1c; */
+    }
+
+    .header-bar {
+        background-color: #34343b;
+        color: #cfd0ca;
+    }
+
+    .item-group-condensed {
+        background-color: #34343b;
+        color: #cfd0ca;
+    }
+
+    .item-group-container {
+
+        padding-bottom: 0px;
+        border: 0;
+    }
+
+    .list-view a.active {
+
+        color: #5388ad;
+    }
+
+
+    .context_modules {
+        background-color: #34343b;
+        color: #cfd0ca;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .context_module {
+        background-color: #34343b;
+        color: #cfd0ca;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
+    .ig-list .ig-row:hover {
+        background-color: #292727;
+        color: #f9faf4;
+    }
+
+    .item-group-condensed .ig-header {
+        background-color: #292727;
+        color: #f9faf4;
+    }
+
+
+    .item-group-condensed .ig-row {
+        background-color: #34393c;
+        color: #f9faf4;
+    }
+
+    .item-group-condensed .context_modulestudent-view {
+        background-color: #292727;
+        color: #f9faf4;
+    }
+
+    .ig-title {
+        background-color: #292727;
+        color: #f9faf4;
+    }
+
+    .title {
+        background-color: #34343b;
+        color: #f9faf4;
+    }
+
+
+    .item_link {
+        background-color: #31393e;
+        color: #f9faf4;
+    }
+
+    .a {
+        background-color: #292727;
+        color: #f9faf4;
+    }
+
+    .ig-list .ig-row a.ig-title {
+        background-color: transparent;
+        color: #327595;
+    }
+
+    #questions.assessing {
+        background-color: #34343b;
+        color: #327595;
+        border: none;
+    }
+
+    .quiz-header {
+        border: none;
+        overflow: hidden;
+    }
+
+    .question {
+        background-color: #333434;
+        color: #fbfbfb;
+    }
+
+    .question .header {
+        background-color: #2a2929;
+        color: #fbfbfb;
+    }
+
+    .ellipsible {
+        background-color: #31393e;
+        color: #fbfbfb;
+    }
+
+
+
+    .ig-header .name {
+        color: #f6f6f6;
+        font-size: 16px;
+        font-size: 1rem;
+
+        font-weight: bold;
+    }
+
+    code,
+    pre {
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        font-size: .75rem;
+        border-radius: 6px;
+        color: white;
+        background-color: #3b3e65;
+        border: 1px solid #c7cdd1;
+    }
+
+    .ic-Dashboard-header__layout {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #c7cdd1;
+        background: rgba(52, 51, 51);
+        box-sizing: border-box;
+        height: 4.5rem;
+    }
+
+
+    element.style {
+        opacity: 1;
+    }
+    .ic-DashboardCard {
+        box-sizing: border-box;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+        border-radius: 4px;
+        overflow: hidden;
+        background: rgba(52, 51, 51);
+        width: 262px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 36px 0 0 36px;
+    }
+
+    #breadcrumbs {
+        background-color: #34343b;
+    }
+
+
+    .ui-tabs .ui-tabs-panel {
+        border-color: #c7cdd1;
+        padding: 14px;
+        background-color: #34343b;
+        color: white;
+    }
+
+    .module-sequence-footer .module-sequence-footer-content {
+        height: 64px;
+        /* background: #fff; */
+        border-top: 1px solid #c7cdd1;
+        box-sizing: border-box;
+        padding-top: 12px;
+        background-color: #34343b;
+    }
+
+    .pages.show .page-title {
+        font-size: 2.5em;
+        font-weight: 200;
+        margin: 15px 0;
+        color: #f5f5f5;
+    }
+    .btn,
+    .Button,
+    .ui-button {
+        background: #16409e;
+        color: #fff;
+    }
+
+    .ig-list .ig-row a.ig-title:hover {
+        background-color: #0f0f0f;
+    }
+    .rubric_container .rubric_title {
+        background-color: #0f0f0f;
+        border-top: 1px solid #c7cdd1;
+        border-left: 1px solid #c7cdd1;
+        border-right: 1px solid #c7cdd1;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .rubric_container thead th {
+        background-color: #0f0f0f;
+    }
+}
