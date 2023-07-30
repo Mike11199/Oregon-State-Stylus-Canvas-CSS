@@ -3,7 +3,8 @@
 - Created this as there were no good dark mode options for Canvas for OSU.  Dark Reader is too dark.
 - Use Stylus Chrome Extension:
 
-![image](https://github.com/Mike11199/Oregon-State-Stylus-Canvas-CSS/assets/91037796/c723e78a-4fc8-4242-8402-c43fe0881cef)
+<img src="https://github.com/Mike11199/Oregon-State-Stylus-Canvas-CSS/assets/91037796/c723e78a-4fc8-4242-8402-c43fe0881cef" alt="Image" width="200" height="200">
+
 
 
 - Example - class from a few quarters ago - module page.
